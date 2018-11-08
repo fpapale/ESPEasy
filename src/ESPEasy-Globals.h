@@ -22,8 +22,8 @@
 #define DEFAULT_AP_KEY      "configesp"         // Enter network WPA key for AP (config) mode
 
 // --- Wifi Client Mode -----------------------------------------------------------------------------
-#define DEFAULT_SSID        "ssid"              // Enter your Wifi network SSID
-#define DEFAULT_KEY         "wpakey"            // Enter your Wifi network WPA key
+#define DEFAULT_SSID        "CrismaG"              // Enter your Wifi network SSID
+#define DEFAULT_KEY         "CrismaSguesT2012"            // Enter your Wifi network WPA key
 
 #define DEFAULT_USE_STATIC_IP   false           // (true|false) enabled or disabled static IP
 #define DEFAULT_IP          "192.168.0.50"      // Enter your IP address

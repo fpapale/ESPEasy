@@ -1,3 +1,4 @@
+//#define PLUGIN_BUILD_DEV
 
 #ifdef CONTINUOUS_INTEGRATION
 #pragma GCC diagnostic error "-Wall"

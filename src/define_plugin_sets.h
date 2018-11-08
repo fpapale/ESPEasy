@@ -533,6 +533,8 @@ To create/register a plugin, you have to :
     #define USES_P059   // Encoder
 
     #define USES_P063   // TTP229_KeyPad
+
+    #define USES_P214	//TANKMANAGER
 #endif
 
 
@@ -555,8 +557,6 @@ To create/register a plugin, you have to :
     #define USES_N001   // Email
     #define USES_N002   // Buzzer
 #endif
-
-
 
 // TESTING #####################################
 #ifdef PLUGIN_SET_TESTING
@@ -606,7 +606,6 @@ To create/register a plugin, you have to :
 #ifdef NOTIFIER_SET_TESTING
 #endif
 
-
 // EXPERIMENTAL (playground) #######################
 #ifdef PLUGIN_SET_EXPERIMENTAL
     #define USES_P046   // VentusW266
@@ -618,8 +617,8 @@ To create/register a plugin, you have to :
     // [copied from Playground as of 6 March 2018]
     // It needs some cleanup as some are ALSO in the main repo,
     // thus they should have been removed from the Playground repo
-    #define USES_P100	// SRF01
-	   #define USES_P101	// NeoClock       (MERGED?)
+  #define USES_P100	// SRF01
+	#define USES_P101	// NeoClock       (MERGED?)
 	#define USES_P102	// Nodo
 	#define USES_P103	// Event
 	#define USES_P104	// SRF02
@@ -628,7 +627,7 @@ To create/register a plugin, you have to :
 	#define USES_P107	// Email_Demo
 	#define USES_P108	// WOL
 	#define USES_P109	// RESOL_DeltaSol_Pro
-	   #define USES_P110	// P1WifiGateway      (MERGED?)
+	#define USES_P110	// P1WifiGateway      (MERGED?)
 	#define USES_P111	// RF
 	   //#define USES_P111	// SenseAir     (MERGED?)
 	#define USES_P112	// Power
@@ -644,8 +643,8 @@ To create/register a plugin, you have to :
 	#define USES_P119	// BME680
 	#define USES_P120	// Thermocouple
 	#define USES_P121	// Candle
-	   #define USES_P122	// NeoPixel       (MERGED?)
-	      #define USES_P123	// NeoPixel_Clock  (MERGED?)
+	#define USES_P122	// NeoPixel       (MERGED?)
+	#define USES_P123	// NeoPixel_Clock  (MERGED?)
 	#define USES_P124	// NeoPixelBusFX
 	//#define USES_P124	// Ventus_W266_RFM69
 	#define USES_P125	// ArduCAM
@@ -674,12 +673,13 @@ To create/register a plugin, you have to :
 	#define USES_P182	// MT681
 	#define USES_P199	// RF443_KaKu
 	#define USES_P202	// ADC_ACcurrentSensor
-	   #define USES_P205	// FrameOLED      (MERGED?)
+	#define USES_P205	// FrameOLED      (MERGED?)
 	#define USES_P209	// IFTTTMaker
-	   #define USES_P210	// MQTTImport     (MERGED?)
+	#define USES_P210	// MQTTImport     (MERGED?)
 	#define USES_P211	// MPU6050
 	#define USES_P212	// MY9291
 	#define USES_P213	// VEML6070
+
 #endif
 
 
